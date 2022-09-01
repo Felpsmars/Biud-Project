@@ -1,7 +1,15 @@
+import styles from '../../styles/Index.module.scss';
+import Head from 'next/head';
+
 export default function Home() {
   return (
-    <div>
-      <h1>Index Page</h1>
-    </div>
+    <>
+      <Head>
+        <title>Digite seu nome!</title>
+      </Head>
+      <div className={styles.container}>
+        <p>Index Page</p>
+      </div>
+    </>
   );
 }
