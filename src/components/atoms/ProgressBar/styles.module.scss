@@ -1,0 +1,14 @@
+.progress {
+  background: rgba(0, 0, 0, 0.1);
+  height: 8px;
+  width: 100%;
+}
+
+.progressDone {
+  background-color: var(--progress-green);
+  color: #fff;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}
