@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-image: url('../assets/background.png');
+  background-size: cover;
+  background-position: top center;
+
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 10%;
+    gap: 40px;
+  }
+
+  .img {
+    width: 40px;
+  }
+
+  .text {
+    width: 430px;
+    color: var(--white);
+  }
+
+  .buttonContainer {
+    background: #d81656;
+    border-radius: 24px;
+    border: none;
+    font-size: 16px;
+    width: 212px;
+    height: 40px;
+    color: var(--white);
+  }
+}
+
+.redContainer {
+  display: flex;
+  background: #d81656;
+  border-radius: 16px;
+  border: none;
+  line-height: 18px;
+  font-size: 16px;
+  width: 448px;
+  height: 82px;
+  color: var(--white);
+  padding: 12px;
+  align-items: center;
+  .span {
+    width: 290px;
+  }
+}
+
+.finally {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
